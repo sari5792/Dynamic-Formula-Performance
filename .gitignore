@@ -1,0 +1,18 @@
+ # C#
+bin/
+obj/
+
+# Angular
+node_modules/
+.angular/
+dist/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

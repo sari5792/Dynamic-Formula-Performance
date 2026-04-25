@@ -1,0 +1,43 @@
+<section class="report-page">
+  <h1>Performance Report</h1>
+
+  <section class="chart-section">
+    <h2>Performance by Method</h2>
+    <div class="chart-container" *ngIf="chartData.labels?.length; else loadingChart">
+      <canvas baseChart
+        [data]="chartData"
+        [options]="chartOptions"
+        [type]="'bar'">
+      </canvas>
+    </div>
+    <ng-template #loadingChart>
+      <p>Loading chart data...</p>
+    </ng-template>
+  </section>
+
+  <section class="logs-section">
+    <h2>Logs</h2>
+    <div class="table-scroll">
+      <table class="logs-table">
+        <thead>
+          <tr>
+            <th>Targil</th>
+            <th>Method</th>
+            <th>Run Time</th>
+            <th>Calc Time</th>
+            <th>Write Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let log of logs">
+            <td>{{ log.targil_id }}</td>
+            <td>{{ log.method }}</td>
+            <td>{{ log.run_time }}</td>
+            <td>{{ log.calc_time }}</td>
+            <td>{{ log.write_time }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>

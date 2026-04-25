@@ -1,0 +1,96 @@
+.report-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+.report-page h1 {
+  margin-bottom: 16px;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.chart-section,
+.logs-section {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.chart-section h2,
+.logs-section h2 {
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.chart-container {
+  min-height: 320px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+
+.logs-table thead {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.logs-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.logs-table th,
+.logs-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logs-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.logs-table th {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+.logs-table td {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .report-page {
+    padding: 16px;
+  }
+
+  .chart-section,
+  .logs-section {
+    padding: 16px;
+  }
+
+  .logs-table th,
+  .logs-table td {
+    padding: 10px 12px;
+  }
+}
