@@ -81,6 +81,7 @@ ng serve
 Open:
 http://localhost:4200
 
+
 ---
 
 ##  Results Validation
@@ -96,7 +97,7 @@ Contains:
 - Performance report  
 - Screenshots
 - 
-- ## Viewing Results
+## Viewing Results
 
 The Angular dashboard is available at:
 http://localhost:4200 (when running locally)
@@ -106,3 +107,4 @@ For convenience, the project also includes:
 - Screenshots of the results (Docs/screenshots)
 
 These allow reviewing the results without running the project.
+
