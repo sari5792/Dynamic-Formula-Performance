@@ -96,7 +96,8 @@ Run:
 Contains:
 - Performance report  
 - Screenshots
-- 
+-  View report: https://drive.google.com/file/d/1oWboO6pejs7MCgoImQvoA8OXK8bUwkKA/view?usp=sharing
+  
 ## Viewing Results
 
 The Angular dashboard is available at:
