@@ -94,4 +94,15 @@ Run:
 ##  Docs
 Contains:
 - Performance report  
-- Screenshots  
+- Screenshots
+- 
+- ## Viewing Results
+
+The Angular dashboard is available at:
+http://localhost:4200 (when running locally)
+
+For convenience, the project also includes:
+- A full performance report (Docs/performance_report.pdf)
+- Screenshots of the results (Docs/screenshots)
+
+These allow reviewing the results without running the project.
